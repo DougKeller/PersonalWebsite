@@ -14,27 +14,27 @@
 }
 
 .cas-background {
-  background-image: url('images/cas.jpg');
+  background-image: url('http://doug-keller.com/public/images/cas.jpg');
 }
 
 .patriot-background {
-  background-image: url('images/patriot.jpg');
+  background-image: url('http://doug-keller.com/public/images/patriot.jpg');
 }
 
 .doug-background {
-  background-image: url('images/doug.jpg');
+  background-image: url('http://doug-keller.com/public/images/doug.jpg');
 }
 
 .code-background {
-  background-image: url('images/code.jpg');
+  background-image: url('http://doug-keller.com/public/images/code.jpg');
 }
 
 .computer-background {
-  background-image: url('images/computer.jpg');
+  background-image: url('http://doug-keller.com/public/images/computer.jpg');
 }
 
 .wood-background {
-  background-image: url('images/wood.jpg');
+  background-image: url('http://doug-keller.com/public/images/wood.jpg');
 }
 
 .title {
@@ -80,4 +80,52 @@
 .related {
   display: block;
   font-size: 1.2rem;
+}
+
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+}
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  color: #79e;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+h1, h2, h3 {
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+span {
+  display: block;
+}
+blockquote {
+  width: 60vw;
 }
